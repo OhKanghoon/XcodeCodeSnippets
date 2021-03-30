@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>displaynode</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>import KarrotUI
+
+final class &lt;#Node#&gt;: ASDisplayNode {
+
+  // MARK: Constants
+
+  private enum Typo {
+
+  }
+
+
+  // MARK: UI
+
+
+
+  // MARK: Initializing
+
+  override init() {
+    super.init()
+    self.automaticallyManagesSubnodes = true
+  }
+
+
+  // MARK: Layout Spec
+
+  override func layoutSpecThatFits(_ constrainedSize: ASSizeRange) -&gt; ASLayoutSpec {
+    return ASLayoutSpec()
+  }
+}
+</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>62748098-715A-402A-8C42-D0F7ECCE4902</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
+	<key>IDECodeSnippetTitle</key>
+	<string>DisplayNode</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
