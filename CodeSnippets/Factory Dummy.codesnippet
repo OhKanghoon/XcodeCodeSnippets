@@ -14,8 +14,7 @@
     return Factory(dependency: .init(
     ))
   }
-}
-</string>
+}</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>FE5E1BD4-93DD-4B39-8698-42B90458AFA5</string>
 	<key>IDECodeSnippetLanguage</key>
